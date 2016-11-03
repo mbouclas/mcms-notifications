@@ -4,7 +4,7 @@ namespace Mcms\Notifications\Installer\AfterUpdate;
 
 
 use IdeaSeven\Core\Models\UpdatesLog;
-use IdeaSeven\FrontEnd\Installer\AfterUpdate\CreateMissingTable\CreateNotificationsTables;
+use Mcms\Notifications\Installer\AfterUpdate\CreateMissingTable\CreateNotificationsTables;
 use Illuminate\Console\Command;
 
 class CreateMissingTable
