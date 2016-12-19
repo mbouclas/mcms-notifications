@@ -13,7 +13,7 @@ class UserNotificationTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_notification', function (Blueprint $table) {
+        Schema::create('notification_user', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('notification_id')->unsigned()->index();
             $table->foreign('notification_id')->references('id')->on('notifications')->onDelete('cascade');
@@ -32,6 +32,6 @@ class UserNotificationTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('user_notification');
+        Schema::dropIfExists('notification_user');
     }
 }
