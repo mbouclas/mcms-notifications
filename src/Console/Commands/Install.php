@@ -13,7 +13,7 @@ namespace Mcms\Notifications\Console\Commands;
  * If you provide me with a provision file, i will make some changes to the config file of the application
  */
 
-use IdeaSeven\Core\Helpers\Composer;
+use Mcms\Core\Helpers\Composer;
 use Mcms\Notifications\Console\Commands\InstallerActions\ApplyProvisionSettings;
 use Mcms\Notifications\Console\Commands\InstallerActions\MigrateDataBase;
 use Mcms\Notifications\Console\Commands\InstallerActions\PublishAssets;

@@ -5,7 +5,7 @@ namespace Mcms\Notifications\Service;
 
 use Auth;
 use Mcms\Notifications\Models\Notification;
-use IdeaSeven\Core\QueryFilters\Filterable;
+use Mcms\Core\QueryFilters\Filterable;
 use Illuminate\Support\Collection;
 
 /**
