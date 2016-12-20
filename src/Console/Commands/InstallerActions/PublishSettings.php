@@ -1,15 +1,15 @@
 <?php
 
-namespace Mcms\Notifications\Console\Commands\InstallerActions;
+namespace IdeaSeven\Notifications\Console\Commands\InstallerActions;
 
 
 use Illuminate\Console\Command;
 
 
 /**
- * @example php artisan vendor:publish --provider="Mcms\Notifications\NotificationsServiceProvider" --tag=config
+ * @example php artisan vendor:publish --provider="IdeaSeven\Notifications\NotificationsServiceProvider" --tag=config
  * Class PublishSettings
- * @package Mcms\Notifications\Console\Commands\InstallerActions
+ * @package IdeaSeven\Notifications\Console\Commands\InstallerActions
  */
 class PublishSettings
 {
@@ -19,7 +19,7 @@ class PublishSettings
     public function handle(Command $command)
     {
         $command->call('vendor:publish', [
-            '--provider' => 'Mcms\Notifications\NotificationsServiceProvider',
+            '--provider' => 'IdeaSeven\Notifications\NotificationsServiceProvider',
             '--tag' => ['config'],
         ]);
 

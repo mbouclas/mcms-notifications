@@ -1,10 +1,10 @@
 <?php
 
-namespace Mcms\Notifications\Console\Commands;
+namespace IdeaSeven\Notifications\Console\Commands;
 
 use File;
-use Mcms\Notifications\Console\Commands\InstallerActions\PublishAssets;
-use Mcms\Notifications\Installer\ActionsAfterUpdate;
+use IdeaSeven\Notifications\Console\Commands\InstallerActions\PublishAssets;
+use IdeaSeven\Notifications\Installer\ActionsAfterUpdate;
 use Illuminate\Console\Command;
 class RefreshAssets extends Command
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcms\Notifications\StartUp;
+namespace IdeaSeven\Notifications\StartUp;
 
 
 use IdeaSeven\Core\Widgets\Widget;
@@ -8,7 +8,7 @@ use IdeaSeven\Core\Widgets\Widget;
 /**
  * Register all your Blade directives here
  * Class RegisterDirectives
- * @package Mcms\Notifications\StartUp
+ * @package IdeaSeven\Notifications\StartUp
  */
 class RegisterDirectives
 {

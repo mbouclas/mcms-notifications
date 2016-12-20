@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcms\Notifications\Installer\AfterUpdate;
+namespace IdeaSeven\Notifications\Installer\AfterUpdate;
 
 
 use IdeaSeven\Core\Models\UpdatesLog;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcms\Notifications\StartUp;
+namespace IdeaSeven\Notifications\StartUp;
 
 use IdeaSeven\Core\Services\SettingsManager\SettingsManagerService;
 use Illuminate\Support\ServiceProvider;

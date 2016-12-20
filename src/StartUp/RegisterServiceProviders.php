@@ -1,12 +1,12 @@
 <?php
 
-namespace Mcms\Notifications\StartUp;
+namespace IdeaSeven\Notifications\StartUp;
 use App;
 
 /**
  * Register your dependencies Service Providers here
  * Class RegisterServiceProviders
- * @package Mcms\Notifications\StartUp
+ * @package IdeaSeven\Notifications\StartUp
  */
 class RegisterServiceProviders
 {

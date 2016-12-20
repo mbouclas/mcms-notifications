@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcms\Notifications\Models;
+namespace IdeaSeven\Notifications\Models;
 
 use IdeaSeven\Core\QueryFilters\Filterable;
 use IdeaSeven\Core\Traits\Userable;

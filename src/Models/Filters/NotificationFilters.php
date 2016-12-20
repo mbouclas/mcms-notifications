@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcms\Notifications\Models\Filters;
+namespace IdeaSeven\Notifications\Models\Filters;
 
 
 use IdeaSeven\Core\QueryFilters\FilterableDate;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Mcms\Notifications\Console\Commands\InstallerActions;
+namespace IdeaSeven\Notifications\Console\Commands\InstallerActions;
 
 
 use Illuminate\Console\Command;
 
 /**
  * Class PublishAssets
- * @package Mcms\Notifications\Console\Commands\InstallerActions
+ * @package IdeaSeven\Notifications\Console\Commands\InstallerActions
  */
 class PublishAssets
 {
@@ -17,17 +17,17 @@ class PublishAssets
     public function handle(Command $command)
     {
         $command->call('vendor:publish', [
-            '--provider' => 'Mcms\Notifications\NotificationsServiceProvider',
+            '--provider' => 'IdeaSeven\Notifications\NotificationsServiceProvider',
             '--tag' => ['public'],
         ]);
 
         $command->call('vendor:publish', [
-            '--provider' => 'Mcms\Notifications\NotificationsServiceProvider',
+            '--provider' => 'IdeaSeven\Notifications\NotificationsServiceProvider',
             '--tag' => ['assets'],
         ]);
 
         $command->call('vendor:publish', [
-            '--provider' => 'Mcms\Notifications\NotificationsServiceProvider',
+            '--provider' => 'IdeaSeven\Notifications\NotificationsServiceProvider',
             '--tag' => ['admin-package'],
         ]);
 

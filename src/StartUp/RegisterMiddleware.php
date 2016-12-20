@@ -1,16 +1,16 @@
 <?php
 
-namespace Mcms\Notifications\StartUp;
+namespace IdeaSeven\Notifications\StartUp;
 
 
 
-use Mcms\Notifications\Middleware\PublishPage;
+use IdeaSeven\Notifications\Middleware\PublishPage;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class RegisterMiddleware
- * @package Mcms\Notifications\StartUp
+ * @package IdeaSeven\Notifications\StartUp
  */
 class RegisterMiddleware
 {

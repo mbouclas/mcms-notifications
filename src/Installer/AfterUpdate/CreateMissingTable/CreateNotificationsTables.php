@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcms\Notifications\Installer\AfterUpdate\CreateMissingTable;
+namespace IdeaSeven\Notifications\Installer\AfterUpdate\CreateMissingTable;
 
 use Illuminate\Console\Command;
 use Schema;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcms\Notifications\Console\Commands\InstallerActions;
+namespace IdeaSeven\Notifications\Console\Commands\InstallerActions;
 
 
 use Illuminate\Console\Command;

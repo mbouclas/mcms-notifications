@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcms\Notifications\StartUp;
+namespace IdeaSeven\Notifications\StartUp;
 
 
 use App;
@@ -9,7 +9,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  * Register your Facades/aliases here
  * Class RegisterFacades
- * @package Mcms\Notifications\StartUp
+ * @package IdeaSeven\Notifications\StartUp
  */
 class RegisterFacades
 {
@@ -23,7 +23,7 @@ class RegisterFacades
          * Register Facades
          */
         $facades = \Illuminate\Foundation\AliasLoader::getInstance();
-//        $facades->alias('ModuleRegistry', \Mcms\Notifications\Facades\ModuleRegistryFacade::class);
+//        $facades->alias('ModuleRegistry', \IdeaSeven\Notifications\Facades\ModuleRegistryFacade::class);
         
     }
 }

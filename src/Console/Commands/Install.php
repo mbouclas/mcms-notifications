@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcms\Notifications\Console\Commands;
+namespace IdeaSeven\Notifications\Console\Commands;
 
 /**
  * What i do :
@@ -14,12 +14,12 @@ namespace Mcms\Notifications\Console\Commands;
  */
 
 use IdeaSeven\Core\Helpers\Composer;
-use Mcms\Notifications\Console\Commands\InstallerActions\ApplyProvisionSettings;
-use Mcms\Notifications\Console\Commands\InstallerActions\MigrateDataBase;
-use Mcms\Notifications\Console\Commands\InstallerActions\PublishAssets;
-use Mcms\Notifications\Console\Commands\InstallerActions\PublishSettings;
-use Mcms\Notifications\Console\Commands\InstallerActions\PublishViews;
-use Mcms\Notifications\Console\Commands\InstallerActions\SeedDataBase;
+use IdeaSeven\Notifications\Console\Commands\InstallerActions\ApplyProvisionSettings;
+use IdeaSeven\Notifications\Console\Commands\InstallerActions\MigrateDataBase;
+use IdeaSeven\Notifications\Console\Commands\InstallerActions\PublishAssets;
+use IdeaSeven\Notifications\Console\Commands\InstallerActions\PublishSettings;
+use IdeaSeven\Notifications\Console\Commands\InstallerActions\PublishViews;
+use IdeaSeven\Notifications\Console\Commands\InstallerActions\SeedDataBase;
 use Illuminate\Console\Command;
 use Event;
 use \File;
@@ -27,7 +27,7 @@ use \File;
 
 /**
  * Class Install
- * @package Mcms\Notifications\Console\Commands
+ * @package IdeaSeven\Notifications\Console\Commands
  */
 class Install extends Command
 {

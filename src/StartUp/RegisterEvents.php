@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcms\Notifications\StartUp;
+namespace IdeaSeven\Notifications\StartUp;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Support\ServiceProvider;
@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  * Register your events here
  * Class RegisterEvents
- * @package Mcms\Notifications\StartUp
+ * @package IdeaSeven\Notifications\StartUp
  */
 class RegisterEvents
 {

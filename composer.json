@@ -24,15 +24,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Mcms\\Notifications\\": "src"
+            "IdeaSeven\\Notifications\\": "src"
         },
         "psr-0": {
-            "Mcms\\Notifications": "src/"
+            "IdeaSeven\\Notifications": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mcms\\Notifications\\": "tests"
+            "IdeaSeven\\Notifications\\": "tests"
         }
     },
     "scripts": {

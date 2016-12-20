@@ -1,15 +1,15 @@
 <?php
 
-namespace Mcms\Notifications;
+namespace IdeaSeven\Notifications;
 
 
-use Mcms\Notifications\StartUp\RegisterAdminPackage;
-use Mcms\Notifications\StartUp\RegisterEvents;
-use Mcms\Notifications\StartUp\RegisterFacades;
-use Mcms\Notifications\StartUp\RegisterMiddleware;
-use Mcms\Notifications\StartUp\RegisterServiceProviders;
-use Mcms\Notifications\StartUp\RegisterSettingsManager;
-use Mcms\Notifications\StartUp\RegisterWidgets;
+use IdeaSeven\Notifications\StartUp\RegisterAdminPackage;
+use IdeaSeven\Notifications\StartUp\RegisterEvents;
+use IdeaSeven\Notifications\StartUp\RegisterFacades;
+use IdeaSeven\Notifications\StartUp\RegisterMiddleware;
+use IdeaSeven\Notifications\StartUp\RegisterServiceProviders;
+use IdeaSeven\Notifications\StartUp\RegisterSettingsManager;
+use IdeaSeven\Notifications\StartUp\RegisterWidgets;
 use Illuminate\Support\ServiceProvider;
 use \App;
 use \Installer, \Widget;
@@ -23,8 +23,8 @@ class NotificationsServiceProvider extends ServiceProvider
      * @var array
      */
     protected $commands = [
-        \Mcms\Notifications\Console\Commands\Install::class,
-        \Mcms\Notifications\Console\Commands\RefreshAssets::class,
+        \IdeaSeven\Notifications\Console\Commands\Install::class,
+        \IdeaSeven\Notifications\Console\Commands\RefreshAssets::class,
     ];
 
     public $packageName = 'mcmsNotifications';
@@ -130,7 +130,7 @@ class NotificationsServiceProvider extends ServiceProvider
         /**
          * Register installer
          */
-        Installer::register(\Mcms\Notifications\Installer\Install::class);
+        Installer::register(\IdeaSeven\Notifications\Installer\Install::class);
 
     }
 }

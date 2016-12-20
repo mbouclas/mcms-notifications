@@ -1,10 +1,10 @@
 <?php
 
-namespace Mcms\Notifications\Installer\AfterUpdate;
+namespace IdeaSeven\Notifications\Installer\AfterUpdate;
 
 
 use IdeaSeven\Core\Models\UpdatesLog;
-use Mcms\Notifications\Installer\AfterUpdate\CreateMissingTable\CreateNotificationsTables;
+use IdeaSeven\Notifications\Installer\AfterUpdate\CreateMissingTable\CreateNotificationsTables;
 use Illuminate\Console\Command;
 
 class CreateMissingTable

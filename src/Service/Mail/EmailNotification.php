@@ -1,8 +1,8 @@
 <?php
 
-namespace Mcms\Notifications\Service\Mail;
+namespace IdeaSeven\Notifications\Service\Mail;
 
-use Mcms\Notifications\Models\Notification;
+use IdeaSeven\Notifications\Models\Notification;
 use IdeaSeven\Core\Models\User;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;

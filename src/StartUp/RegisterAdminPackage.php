@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcms\Notifications\StartUp;
+namespace IdeaSeven\Notifications\StartUp;
 
 use Illuminate\Support\ServiceProvider;
 use ModuleRegistry, ItemConnector;

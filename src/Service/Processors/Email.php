@@ -1,9 +1,9 @@
 <?php
 
-namespace Mcms\Notifications\Service\Processors;
+namespace IdeaSeven\Notifications\Service\Processors;
 
-use Mcms\Notifications\Service\Mail\EmailNotification;
-use Mcms\Notifications\Service\NotificationService;
+use IdeaSeven\Notifications\Service\Mail\EmailNotification;
+use IdeaSeven\Notifications\Service\NotificationService;
 use Mail;
 
 class Email

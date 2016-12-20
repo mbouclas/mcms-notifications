@@ -1,11 +1,11 @@
 <?php
 
-namespace Mcms\Notifications\Installer;
+namespace IdeaSeven\Notifications\Installer;
 
 
-use Mcms\Notifications\Installer\AfterUpdate\CreateMissingTable;
-use Mcms\Notifications\Installer\AfterUpdate\PublishMissingConfig;
-use Mcms\Notifications\Installer\AfterUpdate\PublishMissingMigrations;
+use IdeaSeven\Notifications\Installer\AfterUpdate\CreateMissingTable;
+use IdeaSeven\Notifications\Installer\AfterUpdate\PublishMissingConfig;
+use IdeaSeven\Notifications\Installer\AfterUpdate\PublishMissingMigrations;
 use IdeaSeven\Core\Exceptions\ErrorDuringUpdateException;
 use IdeaSeven\Core\Helpers\Installer;
 use IdeaSeven\Core\UpdatesLog\UpdatesLog;

@@ -1,12 +1,12 @@
 <?php
 
-namespace Mcms\Notifications\Http\Controllers;
+namespace IdeaSeven\Notifications\Http\Controllers;
 
 
 
 use Config;
-use Mcms\Notifications\Models\Filters\NotificationFilters;
-use Mcms\Notifications\Service\NotificationService;
+use IdeaSeven\Notifications\Models\Filters\NotificationFilters;
+use IdeaSeven\Notifications\Service\NotificationService;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 

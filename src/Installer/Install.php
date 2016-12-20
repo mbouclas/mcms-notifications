@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcms\Notifications\Installer;
+namespace IdeaSeven\Notifications\Installer;
 
 
 use IdeaSeven\Core\Services\Installer\InstallerContract;

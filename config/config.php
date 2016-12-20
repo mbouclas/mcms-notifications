@@ -37,7 +37,7 @@ return [
             'description' => 'This notification will show up on the users dashboard next time they login'
         ],
         'email' => [
-            'processor' => \Mcms\Notifications\Service\Processors\Email::class,
+            'processor' => \IdeaSeven\Notifications\Service\Processors\Email::class,
             'label' => 'e-mail',
             'active' => true,
             'description' => 'This notification will be sent as email'

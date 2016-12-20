@@ -1,13 +1,13 @@
 <?php
 
-namespace Mcms\Notifications\Console\Commands\InstallerActions;
+namespace IdeaSeven\Notifications\Console\Commands\InstallerActions;
 
 
 use Illuminate\Console\Command;
 
 /**
  * Class PublishLanguageFiles
- * @package Mcms\Notifications\Console\Commands\InstallerActions
+ * @package IdeaSeven\Notifications\Console\Commands\InstallerActions
  */
 class PublishLanguageFiles
 {
@@ -17,7 +17,7 @@ class PublishLanguageFiles
     public function handle(Command $command)
     {
         $command->call('vendor:publish', [
-            '--provider' => 'Mcms\Notifications\NotificationsServiceProvider',
+            '--provider' => 'IdeaSeven\Notifications\NotificationsServiceProvider',
             '--tag' => ['lang'],
         ]);
 

@@ -1,16 +1,16 @@
 <?php
 
-namespace Mcms\Notifications\Service;
+namespace IdeaSeven\Notifications\Service;
 
 
 use Auth;
-use Mcms\Notifications\Models\Notification;
+use IdeaSeven\Notifications\Models\Notification;
 use IdeaSeven\Core\QueryFilters\Filterable;
 use Illuminate\Support\Collection;
 
 /**
  * Class NotificationService
- * @package Mcms\Notifications\Service
+ * @package IdeaSeven\Notifications\Service
  */
 class NotificationService
 {

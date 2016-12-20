@@ -1,9 +1,9 @@
 <?php
 
-namespace Mcms\Notifications\Service\Processors;
+namespace IdeaSeven\Notifications\Service\Processors;
 
 
-use Mcms\Notifications\Models\Notification;
+use IdeaSeven\Notifications\Models\Notification;
 
 class Slack
 {
