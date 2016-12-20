@@ -3,7 +3,7 @@
 namespace Mcms\Notifications\Service\Mail;
 
 use Mcms\Notifications\Models\Notification;
-use Mcms\Core\Models\User;
+use IdeaSeven\Core\Models\User;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;

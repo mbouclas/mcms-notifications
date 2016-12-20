@@ -2,7 +2,7 @@
 
 namespace Mcms\Notifications\StartUp;
 
-use Mcms\Core\Services\SettingsManager\SettingsManagerService;
+use IdeaSeven\Core\Services\SettingsManager\SettingsManagerService;
 use Illuminate\Support\ServiceProvider;
 
 class RegisterSettingsManager

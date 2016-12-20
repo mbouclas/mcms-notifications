@@ -3,7 +3,7 @@
 namespace Mcms\Notifications\Installer\AfterUpdate;
 
 
-use Mcms\Core\Models\UpdatesLog;
+use IdeaSeven\Core\Models\UpdatesLog;
 use Illuminate\Console\Command;
 
 class PublishMissingConfig

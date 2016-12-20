@@ -15,7 +15,7 @@
                 reloadOnSearch : false,
                 resolve: {
                     items : ["AuthService", '$q', 'UserNotificationService', function (ACL, $q, Notification) {
-                        return (!ACL.role('admin')) ? $q.reject(403) : Notification.get();
+                        return (!ACL.level(5)) ? $q.reject(403) : Notification.get();
                     }]
                 },
                 name: 'user-notifications-home'
@@ -27,7 +27,7 @@
                 reloadOnSearch : false,
                 resolve: {
                     item : ["AuthService", '$q', 'UserNotificationService', '$route', function (ACL, $q, Notification, $route) {
-                        return (!ACL.role('admin')) ? $q.reject(403) : Notification.find($route.current.params.id);
+                        return (!ACL.level(5)) ? $q.reject(403) : Notification.find($route.current.params.id);
                     }]
                 },
                 name: 'notification-edit'
