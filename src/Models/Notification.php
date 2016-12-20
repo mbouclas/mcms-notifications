@@ -2,8 +2,8 @@
 
 namespace Mcms\Notifications\Models;
 
-use IdeaSeven\Core\QueryFilters\Filterable;
-use IdeaSeven\Core\Traits\Userable;
+use Mcms\Core\QueryFilters\Filterable;
+use Mcms\Core\Traits\Userable;
 use Illuminate\Database\Eloquent\Model;
 
 class Notification extends Model

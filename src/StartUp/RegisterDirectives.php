@@ -3,7 +3,7 @@
 namespace Mcms\Notifications\StartUp;
 
 
-use IdeaSeven\Core\Widgets\Widget;
+use Mcms\Core\Widgets\Widget;
 
 /**
  * Register all your Blade directives here
